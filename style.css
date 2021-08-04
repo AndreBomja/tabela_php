@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(240, 212, 208);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.border {
+    border: 3px groove black;
+}
+
+tr {
+    border: 1.5px solid black;
+}
+
+.escuro {
+    background-color: rgb(130, 128, 128)!important;
+}
+
+.blue {
+    color: rgb(47, 47, 186);
+}
+
+td,
+th {
+    border: 2px groove #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+    font-size: 14px;
+}
+
+td {
+    text-align: center;
+    font-size: 13px;
+}
+
+.destak {
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
